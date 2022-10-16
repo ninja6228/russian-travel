@@ -1,0 +1,14 @@
+.header__section-link {
+  display: flex;
+  gap: 18px;
+  align-items: flex-end;
+  list-style-type: none;
+  margin: 0;
+}
+
+@media screen and (max-width: 450px) {
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

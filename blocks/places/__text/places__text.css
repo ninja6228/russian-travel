@@ -1,0 +1,12 @@
+.places__text {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 900px) {
+  .places__text {
+    gap: 25px;
+  }
+}

@@ -1,0 +1,7 @@
+.cover__link {
+  transition: opacity .8s;
+}
+
+.cover__link:hover {
+  opacity: 0.3;
+}

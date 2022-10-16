@@ -1,0 +1,36 @@
+.places__block {
+  display: grid;
+  gap: 48px 40px;
+  grid-template-columns: minmax(420px, 460px) minmax(300px, 1fr);
+  grid-template-areas:
+    "title url"
+    "image text";
+}
+
+@media screen and (max-width: 1024px) {
+  .places__block {
+    gap: 48px 32px;
+    grid-template-columns: minmax(380px, 440px) minmax(300px, 1fr);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .places__block {
+    gap: 48px 28px;
+    grid-template-columns: minmax(300px, 340px) minmax(300px, 1fr);
+  }
+}
+
+
+@media screen and (max-width: 659px) {
+  .places__block {
+    margin: 0 auto;
+    grid-template-areas:
+      "title"
+      "url"
+      "image"
+      "text";
+    grid-template-columns: minmax(288px, 460px);
+    gap: 32px;
+  }
+}

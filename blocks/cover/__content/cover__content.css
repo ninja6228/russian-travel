@@ -1,0 +1,8 @@
+.cover__content {
+  position: absolute;
+  margin: 0 auto;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  pointer-events: none;
+}
