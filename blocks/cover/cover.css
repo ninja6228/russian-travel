@@ -1,4 +1,6 @@
 .cover {
-  position: relative;
+  box-sizing: border-box;
   max-width: 1184px;
 }
+
+

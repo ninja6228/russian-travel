@@ -7,13 +7,13 @@
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    margin: 88px 0 40px 0;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .intro__title {
-    margin: 64px 0 40px 0;
+    margin-top: 64px;
     font-size: 32px;
     line-height: 35px;
   }
