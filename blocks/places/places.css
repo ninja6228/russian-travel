@@ -8,13 +8,19 @@
 @media screen and (max-width: 900px) {
   .places {
     gap: 73px;
-    padding: 88px 24px 90px 24px;
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-bottom: 90px;
+    padding-left: 24px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .places {
     gap: 50px;
-    padding: 64px 0 66px 0;
+    padding-top: 64px;
+    padding-right: 0;
+    padding-bottom: 66px;
+    padding-left: 0;
   }
 }
